@@ -5,3 +5,9 @@ Por: Professor Fellipe Souto.
 
 ## Árvore de projetos
 [CHk_1 :: Problema: Compressão de dados gênicos](PROBLEM.md)
+
+## Integrantes do BioRLE
+Gabriel Pacheco - RM550191
+Murilo Henrique Obinata - RM99855
+Leonardo Correia Moura - RM550413
+Gustavo Veríssimo - RM551244
