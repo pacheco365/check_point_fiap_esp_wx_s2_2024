@@ -16,8 +16,20 @@ package br.com.fiap.twoespwx.libunclepresser;
 
 public class App 
 {
-    public static void main( String[] args )
-    {
-        System.out.println("LIB UNCLE PRESSER - GRUPO BATATA-DOCE");
+    public static void main(String[] args) {
+        String inputFilePath = args[0];
+        String outputFilePath = args[1];
+
+        try {
+            String sequence = readFile(inputFilePath);
+
+            String compressedSequence = compressRLE(sequence);
+
+            writeFile(outputFilePath, compressedSequence);
+
+            displayReport(sequence, compressedSequence);
+        } catch (IOException e) {
+            System.err.println("Erro ao processar os arquivos: " + e.getMessage());
+        }
     }
 }
