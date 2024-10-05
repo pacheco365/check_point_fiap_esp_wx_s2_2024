@@ -3,12 +3,12 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/.
  *
- * Grupo: Batata Doce
+ * Grupo: BioRLE
  * Autores: 
- *      - João da Silva     -   jaodasilva@example.com
- *      - Jose da Silva     -   zedasilva@example.com
- *      - Maria da Silva    -   marydasilva@example.com
- *      - Monica da Silva   -   nicadasilva@example.com
+ *      - Gabriel Pacheco            -   RM550191
+ *      - Gustavo Veríssimo          -   RM551244
+ *      - Murilo Henrique Obinata    -   RM99855
+ *      - Leonardo Correia Moura     -   RM550413
  */
 
 package br.com.fiap.twoespwx.libunclepresser;
