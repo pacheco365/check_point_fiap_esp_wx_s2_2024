@@ -32,4 +32,19 @@ public class App
             System.err.println("Erro ao processar os arquivos: " + e.getMessage());
         }
     }
+    
+    public static String compressRLE(String sequence) {
+        StringBuilder compressed = new StringBuilder();
+        int count = 1;
+
+        for (int i = 0; i < sequence.length(); i++) {
+            if (i == sequence.length() - 1 || sequence.charAt(i) != sequence.charAt(i + 1)) {
+                compressed.append(sequence.charAt(i)).append(count);
+                count = 1;
+            } else {
+                count++;
+            }
+        }
+        return compressed.toString();
+    }
 }
